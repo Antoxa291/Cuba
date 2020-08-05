@@ -349,31 +349,34 @@ body {
     left: 0;
     width: 16px;
     height: 16px;
+    top: 2px;
 }
 
-.footer__item-link--message {
+.footer__item-link--message::before {
     background-image: url(../images/interface.svg);
     background-repeat: no-repeat;
+    width: 17px;
 }
 
-.footer__item-link--facebook {
+.footer__item-link--facebook::before {
     background-image: url(../images/facebook-logo.svg);
     background-repeat: no-repeat;
 }
 
-.footer__item-link--instagram {
+.footer__item-link--instagram::before {
     background-image: url(../images/instagram-logo.svg);
     background-repeat: no-repeat;
 }
 
-.footer__item-link--youtube {
+.footer__item-link--youtube::before {
     background-image: url(../images/youtube-symbol.svg);
     background-repeat: no-repeat;
 }
 
-.footer__item-link--email {
+.footer__item-link--email::before {
     background-image: url(../images/email-symbol.svg);
     background-repeat: no-repeat;
+    top: 4px;
 }
 
 
